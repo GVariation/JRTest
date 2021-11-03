@@ -13,9 +13,9 @@ public class App {
 
 //        Test test = new Test();
 //        test.test();
+        Task0519 task0519 = new Task0519();
+        task0519.task0519();
 
-        Task0516 task0516 = new Task0516();
-        task0516.task0516();
     }
 
 
