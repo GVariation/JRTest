@@ -10,8 +10,12 @@ public class App {
 
     public static void main(String[] args) {
         //напишите тут ваш код
-        Task0515 task0515 = new Task0515();
-        task0515.task0515();
+
+//        Test test = new Test();
+//        test.test();
+
+        Task0516 task0516 = new Task0516();
+        task0516.task0516();
     }
 
 
