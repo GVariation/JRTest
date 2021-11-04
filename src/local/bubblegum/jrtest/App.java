@@ -1,19 +1,29 @@
 package local.bubblegum.jrtest;
 
-import local.bubblegum.jrtest.tasks.*;
-
-import java.util.Scanner;
+import local.bubblegum.jrtest.tasks.TaskBase;
+import local.bubblegum.jrtest.tasks.TasksFactory;
 
 public class App {
-    public static String[] strings;
 
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+
 //        Task0602 task0602 = new Task0602();
 //        task0602.task0602();
-        Task0605 task0605 = new Task0605();
-        task0605.task0605();
+
+//        Task0607_StaticExt_PlusJavaDoc task0607StaticExtPlusJavaDoc = new Task0607_StaticExt_PlusJavaDoc();
+//        task0607StaticExtPlusJavaDoc.task0607(args);
+
+//        TaskBase qwe = new Task0609();
+//        qwe.run(args);
+//        qwe.print();
+
+        TaskBase task = TasksFactory.newTask("Task0605");
+        if (task != null) {
+            task.run(args);
+            task.print();
+            System.out.println(task);
+        }
     }
 
 

@@ -1,6 +1,6 @@
 package local.bubblegum.jrtest.tasks;
 
-public class Task0604 {
+public class Task0604 extends TaskBase {
     public void task0604() {
         String navigator = "Джон";
         String pilot = "Пол";
@@ -15,5 +15,10 @@ public class Task0604 {
         System.out.println("Пилот: " + pilot);
         System.out.println("Второй пилот: " + secondPilot);
         System.out.println("Бортинженер: " + flightEngineer);
+    }
+
+    @Override
+    public void run(String[] args) {
+
     }
 }
