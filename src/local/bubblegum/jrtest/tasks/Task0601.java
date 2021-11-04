@@ -1,7 +1,13 @@
 package local.bubblegum.jrtest.tasks;
 
 public class Task0601 {
-    public void main(String[] args) {
+    public void task0601() {
+        printHydrogenInfo();
+        printJavaInfo();
+    }
+
+    //напишите тут ваш код
+    public void printHydrogenInfo() {
         System.out.println("Водород:");
         System.out.println("Это химический элемент периодической системы с обозначением H и атомным номером 1.");
         System.out.println("Является самым легким элементом таблицы.");
@@ -10,7 +16,8 @@ public class Task0601 {
         System.out.println("-Нефтеперерабатывающей промышленности;");
         System.out.println("-Авиации;");
         System.out.println("-Электроэнергетике.");
-
+    }
+    public static void printJavaInfo() {
         System.out.println("Остров Ява:");
         System.out.println("Входит в состав Индонезии.");
         System.out.println("На острове зародились государства Матарам, Маджапахит, Демак.");
@@ -19,6 +26,4 @@ public class Task0601 {
         System.out.println("Плотность населения — 1061 чел/км.кв.");
         System.out.println("Здесь производят один из знаменитых сортов кофе — Копи Лювак.");
     }
-
-    //напишите тут ваш код
 }
